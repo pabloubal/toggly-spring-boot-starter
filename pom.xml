@@ -10,7 +10,7 @@
 
 	<groupId>io.github.pabloubal</groupId>
 	<artifactId>toggly-spring-boot-starter</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>toggly-spring-boot-starter</name>
 	<description>Toggly spring boot starter</description>
 	<url>https://pabloubal.github.io/toggly/</url>
@@ -34,7 +34,7 @@
 		<connection>scm:git:git://github.com/pabloubal/toggly-spring-boot-starter.git</connection>
 		<developerConnection>scm:git:ssh://github.com:pabloubal/toggly-spring-boot-starter.git</developerConnection>
 		<url>http://github.com/pabloubal/toggly-spring-boot-starter/tree/master</url>
-	  <tag>toggly-spring-boot-starter-0.0.1</tag>
+	  <tag>HEAD</tag>
   </scm>
 
 	<properties>
