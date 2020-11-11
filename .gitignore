@@ -31,4 +31,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### MVN ###
 .mvn/
+release.properties
