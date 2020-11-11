@@ -29,7 +29,7 @@ public class TogglyManager {
   }
 
   public boolean isActive(String featureName) {
-    return Optional.of(featuresRepo.getFeature(featureName))
+    return Optional.ofNullable(featuresRepo.getFeature(featureName))
       .map(Feature::isEnabled)
       .orElse(togglyConfiguration.getGlobal().isEnabledByDefault());
   }

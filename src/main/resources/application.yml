@@ -1,7 +1,7 @@
 toggly:
   global:
     enabledByDefault: true
-    missingTogglesBackToDefault: false
+    missingTogglesBackToDefault: true
   scrapper:
     rate: 1000
   controller:
