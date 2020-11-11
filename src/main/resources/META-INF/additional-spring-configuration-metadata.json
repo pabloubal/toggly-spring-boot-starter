@@ -1,0 +1,28 @@
+{
+  "properties": [
+    {
+      "name": "toggly.global.enabledByDefault",
+      "type": "java.lang.Boolean",
+      "description": "Determines the default behavior of the feature in case its status is missing",
+      "defaultValue": true
+    },
+    {
+      "name": "toggly.global.missingTogglesBackToDefault",
+      "type": "java.lang.Boolean",
+      "description": "Whether features declared in a TogglyEnum but not configured in the Toggly controller should use the default status",
+      "defaultValue": false
+    },
+    {
+      "name": "toggly.scrapper.rate",
+      "type": "java.lang.Integer",
+      "description": "Determines the frequency toggly client queries toggly controller to retrieve the status of the features. Expressed in ms",
+      "defaultValue": 60000
+    },
+    {
+      "name": "toggly.controller.baseUrl",
+      "type": "java.lang.String",
+      "description": "",
+      "defaultValue": "http://localhost:4000"
+    }
+  ]
+}
