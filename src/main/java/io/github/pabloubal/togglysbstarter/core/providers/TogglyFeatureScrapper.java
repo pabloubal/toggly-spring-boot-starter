@@ -35,7 +35,7 @@ public class TogglyFeatureScrapper {
   }
 
   @Scheduled(fixedRateString = "#{togglyConfiguration.getScrapper().getRate()}")
-  private void scrape() {
+  public void scrape() {
     try {
       Set<String> featNames = featuresRepository.getAllFeaturesNames();
       List<Feature> newFeatures = Optional.of(togglyControllerClient.getAllFeatures()).orElse(emptyList());
